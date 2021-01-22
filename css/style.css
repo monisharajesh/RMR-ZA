@@ -1,0 +1,124 @@
+body{
+    height: 1086px;
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#banner{
+    background: url('images/bg-1.png');
+    background-attachment: scroll;
+    background-position: center;
+    padding: 190px 0px ;
+}
+#banner .white-overlay{
+    content: "";
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#banner .container .b-container{
+    display: flex;
+  
+}
+#banner .b-container .banner-left{
+    flex-basis: 44%;
+    padding: 50px 296px 0px 0px;
+}
+#banner .b-container .banner-left h5{
+    font-size: 16px;
+    color: #A0A9B1;
+    margin: 0px 0px 16px;
+    padding: 10px 0px;
+    line-height: 1.8px;
+
+}
+#banner .b-container .banner-left h1{
+    font-size: 40px;
+    color: #343a40;
+    padding: 10px 0px;
+    line-height: 50px;
+}
+#banner .b-container .banner-left h1 span{
+    color: #106eea;
+}
+#banner .b-container .banner-left button{
+    padding: 15px 0px;
+    margin-top: 15px;
+}
+    #banner .b-container .banner-left button{
+        font-size: 14.5px;
+        text-decoration: none;
+        padding: 13px 40px;
+        border-radius: 4px;
+    }
+#banner .b-container .banner-left .button.primary-btn{
+    background-color: #2F55D4;
+    color: #ffffff;
+    margin-right: 12px;
+}
+#banner .b-container .banner-left .button .secondary-btn{
+    background-color: #34d1bf;
+    color: #fff;
+
+}
+#banner .b-container .banner-right{
+    flex-basis: 30%;
+}
+
+#banner .b-container .banner-right form{
+    background-color: #fff;
+    padding: 38px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px -3px #34d1bf;
+}
+#banner .b-container .banner-right h3{
+    text-align: center;
+    font-size: 14.5px;
+    color: #A0A9B1;
+    padding-bottom: 13px;
+}
+#banner .b-container .banner-right h2{
+    text-align: center;
+    font-size: 19px;
+    color: #343a40;
+    padding-bottom: 22px;
+}
+#banner .b-container .banner-right label{
+    display: block;
+    font-size: 14px;
+    color: #A0A9B1
+    padding-bottom: 13px;
+
+}  
+#banner .b-container .banner-right input{
+    width: 90%;
+    padding: 8px 6px;
+    margin-bottom: 25px;
+    border: 0.1px solid #ced4da;
+    border-radius: 3px;
+}
+#banner .b-container .banner-right .entr-details{
+    padding-left: 20px;
+}
+#banner .b-container .banner-right form a{
+    text-decoration: none;
+    padding: 8px 100px;
+    margin: 0px 2px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2F55D4;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#banner .b-container .banner-right form.clk{
+    margin-bottom: 28px;
+
+}
+#banner .b-container .banner-right form a i{
+    padding-left: 12px;
+}
