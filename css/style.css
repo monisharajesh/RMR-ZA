@@ -180,7 +180,7 @@ font-size: 25px;
     color: #a0a9b1;
     text-align: center;
     box-sizing: border-box;
-    font-family: Rubik,sans-serif;
+    font-family: 'Rubik',sans-serif;
 }
 #service .main-ser .wrap{
     display: flex;
@@ -245,4 +245,66 @@ font-size: 25px;
     background: #34d1bf;
     border-color: #34d1bf;
     line-height: 9;
+    text-decoration: none;
 }
+#statistics{
+    background-color: #2f55d4;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#statistics .stat .stat-container{
+    text-align: center;
+    background-color: #2f55d4;
+}
+#statistics .stat .stat-container h4{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+#statistics .stat .stat-container p{
+    color: #a0a9b1;
+    line-height: 1.8;
+    font-size: 15px;
+}
+#statistics .stat .detail{
+    background-color: #2f55d4;
+  
+   
+
+}
+#statistics .stat .detail .detail-container{
+    display: flex;
+    justify-content: space-around;
+padding: 30px;
+}
+#statistics .stat .detail .detail-container .s-item{
+    flex-basis: 25%;
+}
+#statistics .stat .detail .detail-container .s-item h2{
+color: #fff;
+text-align: center;
+line-height: 1.2;
+font: 15px;
+}
+#statistics .stat .detail .detail-container .s-item p{
+    color: #fff;
+    text-align: center;
+    font: 16px;
+    line-height: 1.8;
+}
+#statistics .stat .detail .detail-container .s-item .icon{
+    color: #34d1bf;
+    fill: rgba(52,209,191,.2);
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+
